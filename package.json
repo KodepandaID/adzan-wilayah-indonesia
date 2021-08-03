@@ -1,0 +1,29 @@
+{
+  "name": "adzan-api",
+  "version": "0.1.0",
+  "description": "Merupakan API waktu shalat dengan presisi untuk Wilayah Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "adzan",
+    "islam",
+    "muslim",
+    "prayer",
+    "salah",
+    "shalat"
+  ],
+  "author": "Yudha Pratama Wicaksana",
+  "license": "MIT",
+  "dependencies": {
+    "adhan": "^4.2.1",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.0",
+    "fastify-helmet": "^5.3.2",
+    "fastify-rate-limit": "^5.6.0",
+    "fastify-redis": "^4.3.1",
+    "moment-timezone": "^0.5.33",
+    "redis": "^3.1.2"
+  }
+}
